@@ -8,9 +8,9 @@ module.exports = {
     },
 
     async store(req, res) {
-        const { nome, email } = req.body;
+        const { nome, cnpj, tipo, email, senha, status, verificacao, forgot } = req.body;
 
-        const user = await User.create({ nome, email });
+        const user = await User.create({ nome, cnpj, tipo, email, senha, status, verificacao, forgot });
 
         return res.json(user);
     }
