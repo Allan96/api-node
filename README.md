@@ -1,5 +1,6 @@
 # REST API EM NODE ![License](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/github/repo-size/Allan96/api-node) ![GitHub last commit](https://img.shields.io/github/last-commit/Allan96/api-node)
 
+
 **Representational State Transfer**, abreviado como REST, não é uma tecnologia, uma biblioteca, e nem tampouco uma arquitetura, mas sim um modelo a ser utilizado para se projetar arquiteturas de software distribuído, baseadas em comunicação via rede.
 
 ## Algumas características da API Rest
