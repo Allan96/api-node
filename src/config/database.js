@@ -1,11 +1,11 @@
 module.exports = {
-  dialect: 'postgres',
-  host: 'localhost',
-  username: 'docker',
-  password: 'docker',
-  database: 'sqlnode',
-  define: {
-    timestamps: true,
-    underscored: true,
-  },
+    dialect: 'mysql',
+    host: 'localhost',
+    username: 'root',
+    password: '',
+    database: 'cashforce_webapp',
+    define: {
+        timestamps: false,
+        underscored: true,
+    },
 };
